@@ -137,3 +137,66 @@ header{
 .fa-long-arrow-alt-down{
     margin-right: 7px;
 }
+
+
+.content{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.content .inner{
+    width: 80%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.content .inner:after{
+    content: "";
+    display: table;
+    clear: both;
+    background-color: red;
+}
+
+
+.content .inner .img{
+    float: left;
+    width: 50%;
+}
+
+.content .inner .img img{
+    width: 100%;
+}
+.content .inner .text{
+    float: left;
+    width: calc(50% - 100px);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.content .inner h2{
+    font-size: 25pt;
+    margin-bottom: 15px;
+}
+
+.content .inner  p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.content .divider{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.divider .grey{
+    color: rgb(245, 245, 245);
+}
+
+.divider .white{
+    color: white;
+}
