@@ -200,3 +200,7 @@ header{
 .divider .white{
     color: white;
 }
+
+.content:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}
