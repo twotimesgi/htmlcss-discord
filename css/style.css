@@ -1,6 +1,89 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;ß
+    box-sizing: border-box;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    min-width: 900px;
+    font-size: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(42, 94, 232);
+}
+
+.nav__inner{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.nav__logo{
+    width: 15%;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.nav__logo img{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.nav__inner .nav__menu{
+    width: 70%;
+    float:left
+}
+
+.nav__inner .nav__menu ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav__inner .nav__menu ul li{
+    width: calc(100% / 5);
+    font-size: 0.8rem;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.nav__inner .nav__menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__inner .nav__button{
+    float: left;
+    width: 15%;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+}
+
+.button{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav__inner .nav__button .button{
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+}
