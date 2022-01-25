@@ -15,7 +15,7 @@ header{
     height: 50px;
     background-color: rgb(42, 94, 232);
 }
-
+ 
 .nav__inner{
     width: 80%;
     margin: 0 auto;
@@ -187,16 +187,31 @@ header{
     left: 0px;
 }
 
-.divider .grey{
-    color: rgb(245, 245, 245);
+.wave--reverse{
+    color: red;
+    display: block;
+    transform: rotate(180deg);
 }
 
-.divider .white{
+.wave--grey{
+    color:rgb(241, 241, 241);
+
+}
+
+.wave--white{
     color: white;
 }
 
-.content:nth-child(odd){
-    background-color: rgb(245, 245, 245);
+.section--grey{
+    background-color: rgb(241, 241, 241);
+}
+
+.section--white{
+    background-color: rgb(255, 255, 255);
+}
+
+.white{
+    background-color: ;
 }
 
 .cta-section{
