@@ -152,14 +152,6 @@ header{
     padding-bottom: 150px;
 }
 
-.content .inner:after{
-    content: "";
-    display: table;
-    clear: both;
-    background-color: red;
-}
-
-
 .content .inner .img{
     float: left;
     width: 50%;
@@ -238,4 +230,102 @@ header{
     padding: 10px 20px 10px 20px;
     color: white;
     font-size: 1rem;
+}
+
+footer{
+    height: auto;
+    background-color: rgb(32,35,37);
+}
+
+footer .inner{
+    width: 70%;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+footer ul{
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+footer li{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+footer .col{
+    float: left;
+    width: calc(70% / 4);
+}
+
+footer .large{
+    float: left;
+    width: 30%;
+    color: rgb(236, 236, 236);
+}
+
+footer h3{
+    color:rgb(113, 139, 209);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+footer h4{
+    color: rgb(113, 139, 209);
+    font-size: 0.8rem;
+}
+
+footer li a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+}
+
+.lang-selector{
+    line-height: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+
+.flag{
+    height: 10px;
+}
+
+.social-icons i{
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+
+footer .bottom{
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    border-top: 1px solid rgb(113, 139, 209);
+}
+
+footer .logo{
+    float: left;
+}
+
+footer .logo img{
+    height: 20px;
+    vertical-align: middle;
+}
+
+footer .footer-button{
+    float: right;
+}
+
+footer .button{
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+    background-color: rgb(113, 139, 209);
+    color: white;
+}
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
 }
